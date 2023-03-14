@@ -1,6 +1,6 @@
 <template>
-    <div class="main">
-        <div class="wrap">
+    <header class="main">
+        <div class="wrap container-wrapper">
             <router-link :to="{name: 'Main'}" class="logo">LOGO</router-link>
             <CatalogBtn></CatalogBtn>
             <Search></Search>
@@ -14,7 +14,7 @@
                 <img src="/resources/img/cart.svg" alt="">
             </router-link>
         </div>
-    </div>
+    </header>
 </template>
 
 <script>
@@ -36,7 +36,7 @@ export default {
         background-color: var(--gray-color);
     }
     .wrap {
-        padding: 0 350px;
+        //padding: 0 250px;
         display: flex;
         align-items: center;
         height: 100%;
@@ -50,8 +50,8 @@ export default {
         color: var(--black-color);
     }
     .icon-header {
-        width: 40px;
-        height: 40px;
+        width: 36px;
+        height: 36px;
         display: block;
         flex-shrink: 0;
     }

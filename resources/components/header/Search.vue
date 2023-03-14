@@ -17,14 +17,14 @@ export default {
     }
     .search-input > img {
         position: absolute;
-        right: 10px;
-        top: 10px;
-        width: 30px;
-        height: 30px;
+        right: 8px;
+        top: 6px;
+        width: 28px;
+        height: 28px;
     }
     .search-input > input {
-        width: 550px;
-        height: 48px;
+        width: 400px;
+        height: 40px;
         border-radius: 10px;
         border: none;
         background-color: var(--white-color);

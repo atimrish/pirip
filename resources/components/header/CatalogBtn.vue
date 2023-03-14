@@ -14,8 +14,8 @@ export default {
 <style scoped>
 .main-b {
     background-color: var(--accent-color);
-    width: 120px;
-    height: 48px;
+    width: 112px;
+    height: 40px;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -24,8 +24,8 @@ export default {
 }
 
 .main-b > div {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
 }
 
 img {
@@ -40,6 +40,7 @@ img {
     height: auto;
     color: #E0E0E0;
     font-family: var(--main-font), sans-serif;
+    font-size: 16px;
 }
 
 </style>

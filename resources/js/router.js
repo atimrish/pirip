@@ -3,6 +3,7 @@ import MainPage from "../components/MainPage.vue";
 import FavouritesPage from "../components/FavouritesPage.vue";
 import ProfilePage from "../components/ProfilePage.vue";
 import CartPage from "../components/CartPage.vue";
+
 export default createRouter({
     history: createWebHashHistory(),
     routes: [

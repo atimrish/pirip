@@ -1,5 +1,5 @@
 <template>
-    <div class="slider-item-main">
+    <div class="slider-item-main swiper-slide">
         <img :src=" 'resources/' + img" alt="">
         <div class="text" v-if=" text !== '' ">{{ text }}</div>
     </div>
@@ -16,9 +16,9 @@ export default {
         },
         text: {
             type: String,
-            default: '',
+            default: ''
         }
-    }
+    },
 }
 </script>
 

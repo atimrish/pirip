@@ -21,3 +21,20 @@
 body {
     background-color: var(--white-color);
 }
+
+.custom-bullet {
+    width: 65px;
+    height: 7px;
+    margin: 0 12px;
+    border-radius: 10px;
+    background-color: var(--gray-color);
+}
+
+.custom-bullet-active {
+    background-color: var(--accent-color);
+}
+
+.container-wrapper {
+    width:1140px;
+    margin: 0 auto;
+}
